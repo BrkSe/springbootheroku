@@ -13,7 +13,7 @@ import java.time.Instant;
 @RestController
 public class ApplicationController {
 
-    @GetMapping("/")
+    @GetMapping("/")                    
     @ResponseStatus(HttpStatus.OK)
     public String getCurrentTime() {
 
